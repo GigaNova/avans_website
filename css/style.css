@@ -4,6 +4,12 @@
 
 body{
     background-image: url("../img/bck.png");
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+hr{
+    border-color: #555;
 }
 
 .header{
@@ -27,13 +33,24 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 40px 50px;
+    padding: 30px 50px;
+    background-color: RGBA(0, 0, 0, 0.8);
+    border-top: #555555 solid 1px;
 }
 
 .footer > p{
     color: #FFF;
     display: inline;
     font-size: 20px;
+}
+
+.frontpage-item{
+    padding-top: 40px;
+}
+
+.frontpage-item img{
+    max-height: 515px;
+    width: auto;
 }
 
 .test-image{
