@@ -1,0 +1,40 @@
+@media only screen and (max-width: 480px) {
+
+    .column-6-s{
+        width: 50%;
+    }
+
+    .column-12-s{
+        width: 100%;
+        float: none;
+    }
+
+    .menu{
+        text-align: center;
+    }
+
+    .hamburger{
+        display: inline-block;
+    }
+
+    .menu-responsive{
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .menu:hover .menu-item{
+        display: block;
+    }
+
+    .menu-item{
+        display: none;
+        width: 100%;
+        background-color: #000000;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+}

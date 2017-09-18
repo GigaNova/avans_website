@@ -84,6 +84,17 @@ hr{
     height: 100%;
 }
 
+.hamburger{
+    display: none;
+}
+
+.hamburger > .bar{
+    width: 35px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+}
+
 .menu-item{
     float: left;
     color: #FFFFFF;

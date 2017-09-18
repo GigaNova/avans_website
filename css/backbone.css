@@ -38,74 +38,50 @@ div[class*="column"]{
     margin: 0 10px;
 }
 
-.column-1-s,
-.column-1-m,
 .column-1-l{
     width: 8.33333333%;
 }
 
-.column-2-s,
-.column-2-m,
 .column-2-l{
     width: 16.6666666%;
 }
 
-.column-3-s,
-.column-3-m,
 .column-3-l{
     width: 25%;
 }
 
-.column-4-s,
-.column-4-m,
 .column-4-l{
     width: 33.3333333%;
 }
 
-.column-5-s,
-.column-5-m,
 .column-5-l{
     width: 41.66666667%;
 }
 
-.column-6-s,
-.column-6-m,
 .column-6-l{
     width: 50%;
 }
 
-.column-7-s,
-.column-7-m,
 .column-7-l{
     width: 58.33333333%;
 }
 
-.column-8-s,
-.column-8-m,
 .column-8-l{
     width: 66.333333333%;
 }
 
-.column-9-s,
-.column-9-m,
 .column-9-l{
     width: 75%;
 }
 
-.column-10-s,
-.column-10-m,
 .column-10-l{
     width: 83.3333333333%;
 }
 
-.column-11-s,
-.column-11-m,
 .column-11-l{
     width: 91.66666666666%;
 }
 
-.column-12-s,
-.column-12-m,
 .column-12-l{
     width: 100%;
 }
