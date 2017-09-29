@@ -9,6 +9,10 @@
         float: none;
     }
 
+    .footer{
+        display: none;
+    }
+
     .menu{
         text-align: center;
     }
@@ -36,5 +40,8 @@
 }
 
 @media only screen and (max-width: 1024px) {
-
+    .column-12-m{
+        width: 100%;
+        float: none;
+    }
 }

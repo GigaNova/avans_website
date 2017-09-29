@@ -4,7 +4,9 @@
 
 body{
     background-image: url("../img/bck.png");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     background-color: #000000;
 }
 
@@ -97,6 +99,7 @@ hr{
 
 .menu-item{
     float: left;
+    text-decoration: none;
     color: #FFFFFF;
     text-align: center;
     line-height: 36px;
@@ -113,6 +116,17 @@ hr{
 
 .menu-item:hover{
     background-color: #5e5e5e;
+}
+
+.contact-container{
+    padding: 40px;
+    border-radius: 20px;
+    background: #5e5e5e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #5e5e5e 0%, #7a7a7a 68%, #7a7a7a 68%, #545454 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #5e5e5e 0%,#7a7a7a 68%,#7a7a7a 68%,#545454 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #5e5e5e 0%,#7a7a7a 68%,#7a7a7a 68%,#545454 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#545454',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0 1px 100px rgba(70,70,70 ,1);
 }
 
 p.big-text{
