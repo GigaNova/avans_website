@@ -6,7 +6,6 @@
 
     .column-12-s{
         width: 100%;
-        float: none;
     }
 
     .footer{
@@ -36,6 +35,11 @@
         width: 100%;
         background-color: #000000;
         border: none;
+    }
+
+    img.mobile{
+        width: 100%;
+        height: auto;
     }
 }
 

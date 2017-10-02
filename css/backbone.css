@@ -38,7 +38,7 @@ label{
 }
 
 .row{
-    display: flex;
+    display: block;
 }
 
 div[class*="column"]{

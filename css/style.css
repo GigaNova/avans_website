@@ -24,6 +24,7 @@ hr{
     box-shadow: 0px 1px 100px rgba(111,111,111 ,1);
     width: 80%;
     margin: auto;
+    overflow: auto;
 }
 
 .content{
