@@ -38,11 +38,7 @@ label{
 }
 
 .row{
-    display: block;
-}
-
-div[class*="column"]{
-    float: left;
+    display: flex;
 }
 
 .column-1-l{
@@ -107,12 +103,12 @@ div[class*="column"]{
     width: 100%;
 }
 
-.float-right{
-    float: right;
+.flex-between{
+    justify-content: space-between;
 }
 
-.float-left{
-    float: left;
+.flex-around{
+    justify-content: space-around;
 }
 
 input[type=text], select {

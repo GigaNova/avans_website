@@ -13,6 +13,9 @@
 
 .gallery-box{
     overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 

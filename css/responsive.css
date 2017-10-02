@@ -48,4 +48,8 @@
         width: 100%;
         float: none;
     }
+
+    .row{
+        flex-direction: column;
+    }
 }
