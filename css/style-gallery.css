@@ -1,3 +1,22 @@
+.img-single {
+    width: 500px;
+    height: 400px;
+    float: left;
+    padding: 10px;
+    border: 1px solid #eeeeee
+}
+.img-single img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.gallery-box{
+    overflow: hidden;
+}
+
+
+
 /*#slider {
     overflow: hidden;
 }
