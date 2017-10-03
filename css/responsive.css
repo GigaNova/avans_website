@@ -52,4 +52,18 @@
     .row{
         flex-direction: column;
     }
+
+    .flex-center-tablet{
+        justify-content: center;
+    }
+	
+	.flex-between-tablet{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .flex-around-tablet{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }

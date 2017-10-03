@@ -17,7 +17,7 @@ h6{
 
 p{
     color: #FFFFFF;
-    display: inline;
+    margin: 0;
 }
 
 * {
@@ -103,12 +103,22 @@ label{
     width: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
 .flex-between{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .flex-around{
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    justify-content: center;
 }
 
 input[type=text], select {

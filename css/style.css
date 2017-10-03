@@ -129,8 +129,29 @@ hr{
     box-shadow: 0 1px 100px rgba(70,70,70 ,1);
 }
 
+.about-us{
+    background-color: #555;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
 .card{
-    
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #555;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.card > .info{
+    padding: 20px;
+}
+
+.card > .info > p{
+    color: #FFFFFF;
 }
 
 p.big-text{
