@@ -42,51 +42,51 @@ label{
 }
 
 .column-1-l{
-    width: 8.33333333%;
+    flex: 1;
 }
 
 .column-2-l{
-    width: 16.6666666%;
+    flex: 2;
 }
 
 .column-3-l{
-    width: 25%;
+    flex: 3;
 }
 
 .column-4-l{
-    width: 33.3333333%;
+    flex: 4;
 }
 
 .column-5-l{
-    width: 41.66666667%;
+    flex: 5;
 }
 
 .column-6-l{
-    width: 50%;
+    flex: 6;
 }
 
 .column-7-l{
-    width: 58.33333333%;
+    flex: 7;
 }
 
 .column-8-l{
-    width: 66.333333333%;
+    flex: 8;
 }
 
 .column-9-l{
-    width: 75%;
+    flex: 9;
 }
 
 .column-10-l{
-    width: 83.3333333333%;
+    flex: 10;
 }
 
 .column-11-l{
-    width: 91.66666666666%;
+    flex: 11;
 }
 
 .column-12-l{
-    width: 100%;
+    flex: 12;
 }
 
 .container{

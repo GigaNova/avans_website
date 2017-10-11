@@ -1,11 +1,11 @@
 @media only screen and (max-width: 480px) {
 
     .column-6-s{
-        width: 50%;
+        flex: 50%;
     }
 
     .column-12-s{
-        width: 100%;
+        flex: 100%;
     }
 
     .footer{
@@ -18,6 +18,11 @@
 
     .hamburger{
         display: inline-block;
+    }
+
+    .img-responsive-mobile{
+        width: 100%;
+        height: auto;
     }
 
     .menu-responsive{
@@ -36,16 +41,11 @@
         background-color: #000000;
         border: none;
     }
-
-    img.mobile{
-        width: 100%;
-        height: auto;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
     .column-12-m{
-        width: 100%;
+        flex: 100%;
         float: none;
     }
 
@@ -65,5 +65,10 @@
     .flex-around-tablet{
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    img.mobile{
+        width: 100%;
+        height: auto;
     }
 }
