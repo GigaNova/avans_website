@@ -14,7 +14,8 @@ hr{
     border-color: #555;
 }
 
-.header{
+nav{
+    position: relative;
     padding: 16px 50px;
     background: #4f4f4f; /* Old browsers */
     background: -moz-linear-gradient(top, #4f4f4f 19%, #000000 54%, #000000 70%, #5e5e5e 100%); /* FF3.6-15 */
@@ -80,15 +81,9 @@ hr{
     margin: 0;
 }
 
-.hamburger{
+.hamburger,
+.hamburger + label{
     display: none;
-}
-
-.hamburger > .bar{
-    width: 35px;
-    height: 5px;
-    background-color: #FFFFFF;
-    margin: 6px 0;
 }
 
 .menu{
@@ -99,8 +94,6 @@ hr{
 
 .menu-item{
     float: left;
-    text-decoration: none;
-    color: #FFFFFF;
     text-align: center;
     line-height: 36px;
     padding: 0 12px;
@@ -110,12 +103,25 @@ hr{
     text-transform: uppercase;
 }
 
+.menu-item > a{
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+    display: block;
+}
+
 .menu-item:last-child{
     border-right: 1px #5e5e5e solid;
 }
 
 .menu-item:hover{
     background-color: #5e5e5e;
+}
+
+.menu-responsive{
+    list-style: none;
+    margin: 0;
 }
 
 .contact-container{
