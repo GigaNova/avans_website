@@ -18,8 +18,8 @@ body{
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #eeeeee;
-    min-width: 100%;
+    background-color: teal;
+    min-width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -36,4 +36,7 @@ body{
     padding: 20px;
     margin-bottom: 20px;
     background-color: fuchsia;
+}
+li{
+    color: white;
 }
