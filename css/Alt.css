@@ -1,7 +1,10 @@
 body{
+    background-image: url("../img/MB-back.png");
+    background-size: cover;
     background-color: slategray;
     background-repeat: no-repeat;
     background-position: fixed;
+    background-attachment: fixed;
 }
 
 .header{
@@ -40,3 +43,7 @@ body{
 li{
     color: white;
 }
+
+span{
+    color: white;
+    }
