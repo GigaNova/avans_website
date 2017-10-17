@@ -1,11 +1,51 @@
 @media only screen and (max-width: 480px) {
 
+    .column-1-s{
+        flex: 0 0 8.33333333%;
+    }
+
+    .column-2-s{
+        flex: 0 0 16.6666667%;
+    }
+
+    .column-3-s{
+        flex: 0 0 25%;
+    }
+
+    .column-4-s{
+        flex: 0 0 33.3333333%;
+    }
+
+    .column-5-s{
+        flex: 0 0 41.6666667%;
+    }
+
     .column-6-s{
-        flex: 50%;
+        flex: 0 0 50%;
+    }
+
+    .column-7-s{
+        flex: 0 0 58.33333333%;
+    }
+
+    .column-8-s{
+        flex: 0 0 66.6666667%;
+    }
+
+    .column-9-s{
+        flex: 0 0 75%;
+    }
+
+    .column-10-s{
+        flex: 0 0 83.3333333%;
+    }
+
+    .column-11-s{
+        flex: 0 0 91.6666666%;
     }
 
     .column-12-s{
-        flex: 100%;
+        flex: 0 0 100%;
     }
 
     .footer{
@@ -25,13 +65,26 @@
         overflow: visible;
     }
 
-    .menu-responsive{
+    nav > ul{
+        padding: 0;
         display: inline-block;
         position: absolute;
         left: 0;
         height: auto;
         width: 100%;
         top: 75%;
+    }
+
+    nav > ul > li{
+        display: none;
+        width: 100%;
+        background-color: #000000;
+        border: none;
+        padding: 0;
+    }
+
+    .hamburger:checked ~ ul > li{
+        display: block;
     }
 
     .hamburger{
@@ -50,24 +103,55 @@
         cursor: pointer;
         display: block;
     }
-
-    .hamburger:checked ~ .menu-responsive .menu-item{
-        display: block;
-    }
-
-    .menu-item{
-        display: none;
-        width: 100%;
-        background-color: #000000;
-        border: none;
-        padding: 0;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
-    .column-12-m{
-        flex: 100%;
-        float: none;
+    .column-1-t{
+        flex: 0 0 8.33333333%;
+    }
+
+    .column-2-t{
+        flex: 0 0 16.6666667%;
+    }
+
+    .column-3-t{
+        flex: 0 0 25%;
+    }
+
+    .column-4-t{
+        flex: 0 0 33.3333333%;
+    }
+
+    .column-5-t{
+        flex: 0 0 41.6666667%;
+    }
+
+    .column-6-t{
+        flex: 0 0 50%;
+    }
+
+    .column-7-t{
+        flex: 0 0 58.33333333%;
+    }
+
+    .column-8-t{
+        flex: 0 0 66.6666667%;
+    }
+
+    .column-9-t{
+        flex: 0 0 75%;
+    }
+
+    .column-10-t{
+        flex: 0 0 83.3333333%;
+    }
+
+    .column-11-t{
+        flex: 0 0 91.6666666%;
+    }
+
+    .column-12-t{
+        flex: 0 0 100%;
     }
 
     .row{
