@@ -121,6 +121,10 @@ label{
     justify-content: center;
 }
 
+.flex-row{
+    flex-flow: row;
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 10px;
