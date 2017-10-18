@@ -9,7 +9,7 @@ body{
 
 .header{
     padding: 20px 80px;
-    background-color: fuchsia;
+    background-color: rgba(0, 0, 128, 0.75);
     text-align: center;
 }
 
@@ -32,18 +32,30 @@ body{
     display: block;
 }
 
-.options-container{
+.options-inner{
     -webkit-box-shadow: 0px 15px 40px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 15px 40px -5px rgba(0,0,0,0.75);
     box-shadow: 0px 15px 40px -5px rgba(0,0,0,0.75);
     padding: 20px;
     margin-bottom: 20px;
-    background-color: fuchsia;
+    background-color: rgba(0, 0, 128, 0.75);
 }
+.options-container{
+padding: 0 20px;
+}
+
 li{
     color: white;
 }
 
 span{
     color: white;
-    }
+}
+
+aside{
+    background-color: rgba(0, 0, 128, 0.75);
+    padding: 10px;
+}
+a{
+    color: white;
+}
