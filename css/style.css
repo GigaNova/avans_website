@@ -106,13 +106,6 @@ nav > ul > li:hover{
     color: #FFFFFF;
 }
 
-.logo{
-    font-family: 'Logo';
-    color: white;
-    font-size: 32px;
-    margin: 0;
-}
-
 .hamburger,
 .hamburger + label{
     display: none;
