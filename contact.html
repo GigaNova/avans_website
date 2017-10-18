@@ -1,95 +1,92 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <title>Eindopdracht Website</title>
-    <link rel="stylesheet" type="text/css" href="css/backbone.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
-<body>
-    <section class="header">
-        <nav class="flex flex-between">
-            <a href="index.html"><img src="img/logo.png"></a>
-            <input type="checkbox" class="hamburger" id="hamburger"><label for="hamburger"></label>
-            <ul class="menu-responsive">
-                <li class="menu-item">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="menu-item">
-                    <a href="index.html">PC's</a>
-                </li>
-                <li class="menu-item">
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li class="menu-item">
-                    <a href="over-ons.html">Over Ons</a>
-                </li>
-            </ul>
-        </nav>
-        </div>
-    </section>
-    <section class="content">
-        <div class="container">
-            <div class="column-6-l column-12-m">
-                <div class="contact-container">
-                    <h1>Contact</h1>
-                    <form>
-                        <div class="form-item">
-                            <div class="column-5-l column-12-s">
-                                <label for="naam">
-                                    Naam:
-                                </label>
+    <head>
+        <meta charset="UTF-8">
+        <title>Eindopdracht Website</title>
+        <link rel="stylesheet" type="text/css" href="css/backbone.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <nav class="flex flex-between">
+                <a href="index.html"><img src="img/logo.png"></a>
+                <input type="checkbox" class="hamburger" id="hamburger"><label for="hamburger"></label>
+                <ul class="menu-responsive">
+                    <li class="menu-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html">PC's</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="over-ons.html">Over Ons</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="column-6-l column-12-m">
+                    <div class="contact-container">
+                        <h1>Contact</h1>
+                        <form>
+                            <div class="form-item">
+                                <div class="column-5-l column-12-s">
+                                    <label for="naam">
+                                        Naam:
+                                    </label>
+                                </div>
+                                <div class="column-7-l column-12-s">
+                                    <input type="text" name="naam" id="naam"/>
+                                </div>
                             </div>
-                            <div class="column-7-l column-12-s">
-                                <input type="text" name="naam" id="naam"/>
+                            <div class="form-item">
+                                <div class="column-5-l column-12-s">
+                                    <label for="email">
+                                        Email:
+                                    </label>
+                                </div>
+                                <div class="column-7-l column-12-s">
+                                    <input type="text" name="email" id="email"/>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-item">
-                            <div class="column-5-l column-12-s">
-                                <label for="email">
-                                    Email:
-                                </label>
+                            <div class="form-item">
+                                <div class="column-5-l column-12-s">
+                                    <label for="telefoon">
+                                        Telefoonnummer:
+                                    </label>
+                                </div>
+                                <div class="column-7-l column-12-s">
+                                    <input type="text" name="telefoon" id="telefoon"/>
+                                </div>
                             </div>
-                            <div class="column-7-l column-12-s">
-                                <input type="text" name="email" id="email"/>
+                            <div class="form-item">
+                                <div class="column-12-l">
+                                    <label for="message">
+                                        Bericht:
+                                    </label>
+                                </div>
+                                <div class="column-12-l">
+                                    <textarea name="message" id="message" rows="12"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-item">
-                            <div class="column-5-l column-12-s">
-                                <label for="telefoon">
-                                    Telefoonnummer:
-                                </label>
+                            <div class="form-item">
+                                <div class="column-12-l">
+                                    <input type="submit" value="Versturen">
+                                </div>
                             </div>
-                            <div class="column-7-l column-12-s">
-                                <input type="text" name="telefoon" id="telefoon"/>
-                            </div>
-                        </div>
-                        <div class="form-item">
-                            <div class="column-12-l">
-                                <label for="message">
-                                    Bericht:
-                                </label>
-                            </div>
-                            <div class="column-12-l">
-                                <textarea name="message" id="message" rows="12">
-
-                                </textarea>
-                            </div>
-                        </div>
-                        <div class="form-item">
-                            <div class="column-12-l">
-                                <input type="submit" value="Versturen">
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="footer">
-        <p>Styn/Sebastiaan 2017&trade;</p>
-    </section>
-</body>
+        </section>
+        <section class="footer">
+            <p>Styn/Sebastiaan 2017&trade;</p>
+        </section>
+    </body>
 </html>
