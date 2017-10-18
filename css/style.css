@@ -164,6 +164,18 @@ p.big-text{
     font-size: 60px;
 }
 
+.info-block{
+    display:inline-block;
+    position: relative;
+    margin: 5px;
+    float: left;
+    width:25%;
+    height:400px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.header{
+    margin-bottom: 10px;
+}
 /*
 ---------------------------------------------
  */
