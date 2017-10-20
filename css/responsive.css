@@ -48,6 +48,10 @@
         flex: 0 0 100%;
     }
 
+    .flex-wrap-mobile{
+        flex-wrap: wrap;
+    }
+
     .footer{
         display: none;
     }
@@ -153,6 +157,12 @@
 
     .column-12-t{
         flex: 0 0 100%;
+    }
+
+    .frontpage-item-ad > .flex{
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
     }
 
     .row{

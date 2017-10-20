@@ -67,9 +67,9 @@ nav > ul > li:hover{
 .footer{
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
-    padding: 30px 50px;
+    box-sizing: border-box;
+    padding: 30px 50px 30px 50px;
     background-color: RGBA(0, 0, 0, 0.8);
     border-top: #555555 solid 1px;
 }
@@ -80,6 +80,19 @@ nav > ul > li:hover{
     font-size: 20px;
 }
 
+.footer > p > a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer > p:first-child{
+    float: left;
+}
+
+.footer > p:last-child{
+    float: right;
+}
+
 .frontpage-item{
     padding-top: 40px;
 }
@@ -87,6 +100,30 @@ nav > ul > li:hover{
 .frontpage-item img{
     max-height: 515px;
     width: auto;
+}
+
+.frontpage-item-ad p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.frontpage-item-ad .name{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.frontpage-item-ad .price{
+    color: #000080;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.frontpage-item-ad > .flex{
+    padding: 20px;
+    margin: 10px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 10px;
 }
 
 .test-image{
@@ -157,15 +194,30 @@ p.big-text{
     font-size: 60px;
 }
 
+.overview > .header,
 .info-block{
-    display:inline-block;
-    position: relative;
-    margin: 5px;
-    float: left;
-    width:25%;
-    height:400px;
-    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
 }
+
+.info-block:hover{
+    background-color: #555555;
+}
+
+.info-block > a{
+    text-decoration: none;
+}
+
+.form-item{
+    margin-bottom: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.disclaimer > p{
+    margin-bottom: 12px;
+}
+
 .header{
     margin-bottom: 10px;
 }

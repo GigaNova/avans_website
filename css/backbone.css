@@ -96,13 +96,6 @@ label{
     margin-right: auto;
 }
 
-.form-item{
-    margin-bottom: 15px;
-    height: 100%;
-    display: inline-block;
-    width: 100%;
-}
-
 .flex{
     display: flex;
 }
@@ -123,6 +116,14 @@ label{
 
 .flex-row{
     flex-flow: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-shrink{
+    flex-shrink: 1;
 }
 
 input[type=text], select {
