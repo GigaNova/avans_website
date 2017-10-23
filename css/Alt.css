@@ -21,7 +21,7 @@ body{
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: teal;
+    background-color: #4545C7;
     min-width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -58,4 +58,13 @@ aside{
 }
 a{
     color: white;
+}
+h5{
+    font-size: 20px;
+}
+span{
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
 }
