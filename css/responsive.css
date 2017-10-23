@@ -1,56 +1,18 @@
+@media only screen and (max-width: 1024px) {
+
+    .frontpage-item-ad > .flex{
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .img-responsive-tablet{
+        width: 100%;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 480px) {
-
-    .column-1-s{
-        flex: 0 0 8.33333333%;
-    }
-
-    .column-2-s{
-        flex: 0 0 16.6666667%;
-    }
-
-    .column-3-s{
-        flex: 0 0 25%;
-    }
-
-    .column-4-s{
-        flex: 0 0 33.3333333%;
-    }
-
-    .column-5-s{
-        flex: 0 0 41.6666667%;
-    }
-
-    .column-6-s{
-        flex: 0 0 50%;
-    }
-
-    .column-7-s{
-        flex: 0 0 58.33333333%;
-    }
-
-    .column-8-s{
-        flex: 0 0 66.6666667%;
-    }
-
-    .column-9-s{
-        flex: 0 0 75%;
-    }
-
-    .column-10-s{
-        flex: 0 0 83.3333333%;
-    }
-
-    .column-11-s{
-        flex: 0 0 91.6666666%;
-    }
-
-    .column-12-s{
-        flex: 0 0 100%;
-    }
-
-    .flex-wrap-mobile{
-        flex-wrap: wrap;
-    }
 
     .footer{
         display: none;
@@ -108,83 +70,9 @@
         cursor: pointer;
         display: block;
     }
-}
 
-@media only screen and (max-width: 1024px) {
-    .column-1-t{
-        flex: 0 0 8.33333333%;
-    }
-
-    .column-2-t{
-        flex: 0 0 16.6666667%;
-    }
-
-    .column-3-t{
-        flex: 0 0 25%;
-    }
-
-    .column-4-t{
-        flex: 0 0 33.3333333%;
-    }
-
-    .column-5-t{
-        flex: 0 0 41.6666667%;
-    }
-
-    .column-6-t{
-        flex: 0 0 50%;
-    }
-
-    .column-7-t{
-        flex: 0 0 58.33333333%;
-    }
-
-    .column-8-t{
-        flex: 0 0 66.6666667%;
-    }
-
-    .column-9-t{
-        flex: 0 0 75%;
-    }
-
-    .column-10-t{
-        flex: 0 0 83.3333333%;
-    }
-
-    .column-11-t{
-        flex: 0 0 91.6666666%;
-    }
-
-    .column-12-t{
-        flex: 0 0 100%;
-    }
-
-    .frontpage-item-ad > .flex{
-        height: auto;
+    .form-item input[type=submit]{
         width: 100%;
-        margin: 10px 0;
-    }
-
-    .row{
-        flex-direction: column;
-    }
-
-    .flex-center-tablet{
-        justify-content: center;
-    }
-	
-	.flex-between-tablet{
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .flex-around-tablet{
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    img.mobile{
-        width: 100%;
-        height: auto;
+        height: 50px;
     }
 }

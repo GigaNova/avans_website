@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Eindopdracht Website</title>
     <link rel="stylesheet" type="text/css" href="css/backbone.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -35,21 +36,32 @@
             </li>
         </ul>
     </nav>
-    </nav>
     <section class="content">
         <div class="container">
             <div class="column-6-l column-12-t">
                 <div class="contact-container">
                     <h1>Contact</h1>
-                    <form>
-                        <div class="row form-item">
-                            <div class="column-2-l column-12-s">
-                                <label for="naam">
-                                    Naam:
-                                </label>
+                    <form method="get">
+                        <div class="row">
+                            <div class="form-item column-6-l column-12-t">
+                                <div class="column-2-l column-12-s">
+                                    <label for="voornaam">
+                                        Voornaam:
+                                    </label>
+                                </div>
+                                <div class="column-10-l column-12-s">
+                                    <input type="text" name="voornaam" id="voornaam" />
+                                </div>
                             </div>
-                            <div class="column-10-l column-12-s">
-                                <input type="text" name="naam" id="naam" />
+                            <div class="form-item column-6-l column-12-t">
+                                <div class="column-2-l column-12-s">
+                                    <label for="achternaam">
+                                        Achternaam:
+                                    </label>
+                                </div>
+                                <div class="column-10-l column-12-s">
+                                    <input type="text" name="achternaam" id="achternaam" />
+                                </div>
                             </div>
                         </div>
                         <div class="row form-item">
