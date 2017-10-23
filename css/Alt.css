@@ -3,7 +3,7 @@ body{
     background-size: cover;
     background-color: slategray;
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -55,6 +55,7 @@ span{
 aside{
     background-color: rgba(0, 0, 128, 0.75);
     padding-left: 10px;
+    box-sizing: border-box;
 }
 a{
     color: white;

@@ -25,9 +25,11 @@ nav{
     box-shadow: 0px 1px 100px rgba(111,111,111 ,1);
     width: 80%;
     margin: auto;
-    overflow: auto;
+    overflow: visible;
+    box-sizing: border-box;
 }
 
+nav > ul > li > ul,
 nav > ul{
     list-style: none;
     margin: 0;
@@ -42,8 +44,14 @@ nav > ul > li{
     border-left: 1px #5e5e5e solid;
     display: inline-block;
     text-transform: uppercase;
+    position: relative;
 }
 
+nav > ul > li > p{
+    cursor: pointer;
+}
+
+nav > ul > li > ul > li > a,
 nav > ul > li > a{
     text-decoration: none;
     width: 100%;
@@ -56,8 +64,33 @@ nav > ul > li:last-child{
     border-right: 1px #5e5e5e solid;
 }
 
+nav > ul > li > ul{
+    padding: 0;
+    top: 100%;
+    left: 0;
+}
+
+nav > ul > li > ul > li:hover,
 nav > ul > li:hover{
     background-color: #5e5e5e;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+nav > ul > li > ul {
+    display: none;
+    position: absolute;
+}
+
+nav > ul > li > ul > li {
+    background-color: #000000;
+}
+
+nav > ul > li > ul > li > a {
+    padding: 10px 20px;
+    width: auto;
 }
 
 .content{
@@ -211,7 +244,7 @@ p.big-text{
     width: 100%;
 }
 
-.row > .form-item{
+.row .form-item:first-child{
     padding-right: 15px;
 }
 
