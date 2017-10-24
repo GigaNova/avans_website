@@ -101,4 +101,10 @@
         display: inline-block;
         margin-bottom: 15px;
     }
+    .video{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
 }
