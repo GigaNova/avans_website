@@ -255,6 +255,17 @@ p.big-text{
 .header{
     margin-bottom: 10px;
 }
+
+.video{
+  text-align: center;
+  margin: 0;
+}
+
+iframe{
+    -webkit-box-shadow:0 0 30px white; 
+    -moz-box-shadow: 0 0 30px white; 
+    box-shadow:0 0 30px white;
+}
 /*
 ---------------------------------------------
  */
